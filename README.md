@@ -1,7 +1,5 @@
 # Radar
 雷达图
-###效果图  
-![](http://p1.bqimg.com/4851/de305a54cc7cbef3.png)  
 
 ##提供方法  
 ```
@@ -39,24 +37,7 @@
         radarPaint.setColor(color);
     }
 ```  
-##使用示例
-```
-public class MainActivity extends AppCompatActivity {
-    private MyRadar mRadar;
-    double[] data={100,100,100,100,50,100,20};
-    String[] titles={"发球","经验","防守","技巧","速度","力量"};
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        mRadar= (MyRadar) findViewById(R.id.radar);
 
-        mRadar.setData(data);
-        mRadar.setTitles(titles);
-
-    }
-}
-```
 ###其他 
 * 默认wrapcontent=300dp  
 * 默认MaxValue=100
